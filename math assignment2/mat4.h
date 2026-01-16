@@ -317,6 +317,7 @@ inline mat4 perspective(float const fovy, float const aspect, float const near, 
 	proj[3][2] = -1;
 	proj[3][3] = 0;
 
+
 	return proj;
 }
 inline mat4 lookat(vec3 const& eye, vec3 const& at, vec3 const& up)
